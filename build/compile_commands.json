@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/kissinu/chat/src/server/chatserver.cpp",
+  "file": "/home/kissinu/chat/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/kissinu/chat/src/server/chatservice.cpp",
+  "file": "/home/kissinu/chat/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/kissinu/chat/src/server/main.cpp",
+  "file": "/home/kissinu/chat/src/server/main.cpp"
+},
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/offlinemessgaemodel.cpp.o -c /home/kissinu/chat/src/server/offlinemessgaemodel.cpp",
+  "file": "/home/kissinu/chat/src/server/offlinemessgaemodel.cpp"
+},
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/kissinu/chat/src/server/usermodel.cpp",
+  "file": "/home/kissinu/chat/src/server/usermodel.cpp"
+},
+{
+  "directory": "/home/kissinu/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kissinu/chat/include -I/home/kissinu/chat/include/server -I/home/kissinu/chat/include/server/db -I/home/kissinu/chat/thirdparty    -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/kissinu/chat/src/server/db/db.cpp",
+  "file": "/home/kissinu/chat/src/server/db/db.cpp"
+}
+]
