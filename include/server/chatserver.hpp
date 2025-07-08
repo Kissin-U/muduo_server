@@ -3,6 +3,9 @@
 
 #include <muduo/net/TcpServer.h>
 #include <muduo/net/EventLoop.h>
+#include "mavlink_codec.hpp"
+#include <unordered_map>
+#include <memory>
 using namespace muduo;
 using namespace muduo::net;
 
@@ -26,8 +29,15 @@ private:
     void onMessage(const TcpConnectionPtr &,
                    Buffer *,
                    Timestamp);
+
+    // MAVLink消息处理回调
+    void onMavlinkMessage(const TcpConnectionPtr &conn, const mavlink_message_t &msg);
+
     TcpServer _server; // 组合的muduo库，实现服务器功能的类对象(类的实例)
     EventLoop *_loop; // 指向事件循环对象的指针
+    
+    // 为每个连接管理一个MavlinkCodec实例
+    std::unordered_map<std::string, std::shared_ptr<MavlinkCodec>> mavlinkCodecs_;
 };
 
 #endif
